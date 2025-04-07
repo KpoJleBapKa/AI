@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World of Tanks - Контакти</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Контакти</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="tanks.html">Танки</a></li>
+                <li><a href="guides.html">Гайди</a></li>
+                <li><a href="news.html">Новини</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contact.html">Контакти</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Контактна інформація</h2>
+            <p>Ви можете зв'язатися з нами за наступними даними:</p>
+            <ul>
+                <li>Email: your.wot.support@example.com</li>
+                <li>Телефон: +380 99 999 99 99</li>
+                <li>Адреса: м. Київ, вул. Танкістів, 1</li>
+            </ul>
+            <h3>Форма зворотного зв’язку</h3>
+            <form action="#" method="post">
+                <label for="name">Ім'я:</label><br>
+                <input type="text" id="name" name="name"><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br>
+                <label for="message">Повідомлення:</label><br>
+                <textarea id="message" name="message"></textarea><br><br>
+                <input type="submit" value="Відправити">
+            </form>
+            <p><small>Примітка: Форма зворотного зв'язку в цьому прикладі є статичною та не надсилає дані на сервер. Для реальної відправки вам знадобиться бекенд.</small></p>
+        </section>
+        <button id="chatbot-toggle">Чат-бот</button>
+        <div id="chatbot-container" class="chatbot-hidden">
+            <div id="chatbot-messages"></div>
+            <div class="chatbot-input-area">
+                <input type="text" id="chatbot-input" placeholder="Введіть ваше запитання...">
+                <button id="chatbot-send">Відправити</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2025 World of Tanks. Всі права захищено.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

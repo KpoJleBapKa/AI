@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Аналітика чат-бота</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: sans-serif;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        h2, h3 {
+            color: #333;
+        }
+        .analytics-container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .back-link {
+            display: block;
+            margin-top: 20px;
+            color: #007bff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="analytics-container">
+        <h2>Аналітика чат-бота</h2>
+        <div id="analytics-data">
+            <p>Завантаження даних...</p>
+        </div>
+        <a href="index.html" class="back-link">Повернутися на головну</a>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const analyticsDataContainer = document.getElementById('analytics-data');
+            const analytics = localStorage.getItem('chatbotAnalytics');
+
+            if (analytics) {
+                const data = JSON.parse(analytics);
+                let html = `
+                    <h3>Загальна інформація</h3>
+                    <p><b>Час початку сесії:</b> ${data.sessionStartTime}</p>
+                    <p><b>Кількість запитів користувача:</b> ${data.chatHistory.filter(msg => msg.role === 'user').length}</p>
+                    <p><b>Загальна кількість повідомлень:</b> ${data.chatHistory.length}</p>
+
+                    <h3>Аналіз тем (базовий)</h3>
+                `;
+                let topicsHtml = '';
+                for (const topic in data.topics) {
+                    if (data.topics[topic] > 0) {
+                        topicsHtml += `<p><b>${topic}:</b> ${data.topics[topic]} разів</p>`;
+                    }
+                }
+                if (topicsHtml) {
+                    html += topicsHtml;
+                } else {
+                    html += '<p>Немає даних для аналізу тем.</p>';
+                }
+
+                html += `
+                    <h3>Історія чату</h3>
+                    <ul>
+                `;
+                data.chatHistory.forEach(msg => {
+                    html += `<li><b>${msg.role}:</b> ${msg.content}</li>`;
+                });
+                html += `</ul>`;
+
+                analyticsDataContainer.innerHTML = html;
+            } else {
+                analyticsDataContainer.innerHTML = '<p>Дані аналітики не знайдено.</p>';
+            }
+        });
+    </script>
+</body>
+</html>

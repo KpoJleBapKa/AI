@@ -1,0 +1,65 @@
+2025-04-06 22:50:28,116 - INFO - Start polling
+2025-04-06 22:50:41,413 - INFO - Run polling for bot @fakerozetka_bot id=7253314383 - 'FakeRozetka'
+2025-04-06 22:51:13,692 - INFO - Update id=164565284 is not handled. Duration 0 ms by bot id=7253314383
+2025-04-06 22:51:16,871 - INFO - Update id=164565285 is not handled. Duration 0 ms by bot id=7253314383
+2025-04-06 22:53:33,239 - INFO - Start polling
+2025-04-06 22:53:33,366 - INFO - Run polling for bot @fakerozetka_bot id=7253314383 - 'FakeRozetka'
+2025-04-06 22:53:38,945 - INFO - User 709307873 started bot.
+2025-04-06 22:53:39,127 - INFO - Update id=164565286 is handled. Duration 188 ms by bot id=7253314383
+2025-04-06 22:53:41,994 - INFO - Update id=164565287 is handled. Duration 61 ms by bot id=7253314383
+2025-04-06 22:53:46,204 - INFO - Update id=164565288 is not handled. Duration 0 ms by bot id=7253314383
+2025-04-06 22:53:47,872 - INFO - Update id=164565289 is handled. Duration 63 ms by bot id=7253314383
+2025-04-06 22:53:50,450 - INFO - Update id=164565290 is handled. Duration 62 ms by bot id=7253314383
+2025-04-06 22:53:54,508 - INFO - Update id=164565291 is handled. Duration 63 ms by bot id=7253314383
+2025-04-07 01:30:10,288 - INFO - Start polling
+2025-04-07 01:30:10,411 - INFO - Run polling for bot @fakerozetka_bot id=7253314383 - 'FakeRozetka'
+2025-04-07 01:30:14,810 - INFO - Update id=164565292 is handled. Duration 266 ms by bot id=7253314383
+2025-04-07 01:30:18,276 - INFO - Update id=164565293 is handled. Duration 62 ms by bot id=7253314383
+2025-04-07 01:30:19,325 - INFO - Update id=164565294 is not handled. Duration 0 ms by bot id=7253314383
+2025-04-07 01:30:20,440 - INFO - Update id=164565295 is handled. Duration 46 ms by bot id=7253314383
+2025-04-07 01:30:21,940 - INFO - Update id=164565296 is handled. Duration 46 ms by bot id=7253314383
+2025-04-07 01:30:22,799 - INFO - Update id=164565297 is handled. Duration 46 ms by bot id=7253314383
+2025-04-07 01:31:53,888 - INFO - Start polling
+2025-04-07 01:31:54,007 - INFO - Run polling for bot @fakerozetka_bot id=7253314383 - 'FakeRozetka'
+2025-04-07 01:31:56,913 - INFO - Update id=164565298 is handled. Duration 140 ms by bot id=7253314383
+2025-04-07 01:31:59,066 - INFO - Update id=164565299 is handled. Duration 46 ms by bot id=7253314383
+2025-04-07 01:32:30,302 - INFO - Update id=164565300 is handled. Duration 110 ms by bot id=7253314383
+2025-04-07 01:32:33,182 - INFO - Update id=164565301 is handled. Duration 63 ms by bot id=7253314383
+2025-04-07 01:32:37,947 - INFO - Update id=164565302 is handled. Duration 61 ms by bot id=7253314383
+2025-04-07 01:32:40,023 - INFO - Update id=164565303 is handled. Duration 109 ms by bot id=7253314383
+2025-04-07 01:32:43,582 - INFO - Update id=164565304 is handled. Duration 78 ms by bot id=7253314383
+2025-04-07 01:32:48,346 - INFO - Update id=164565305 is handled. Duration 46 ms by bot id=7253314383
+2025-04-07 01:32:52,447 - INFO - Update id=164565306 is handled. Duration 61 ms by bot id=7253314383
+2025-04-07 01:32:57,069 - INFO - Нове замовлення: {'product': 'Zotac_RTX_2060', 'name': 'Kroll', 'phone': '0994638827', 'address': 'Троєщина'}
+2025-04-07 01:32:57,069 - INFO - Update id=164565307 is handled. Duration 61 ms by bot id=7253314383
+2025-04-07 01:33:00,880 - INFO - Update id=164565308 is handled. Duration 63 ms by bot id=7253314383
+2025-04-07 01:33:01,964 - INFO - Update id=164565309 is not handled. Duration 0 ms by bot id=7253314383
+2025-04-07 01:33:03,107 - INFO - Update id=164565310 is handled. Duration 46 ms by bot id=7253314383
+2025-04-07 01:33:04,592 - INFO - Update id=164565311 is handled. Duration 46 ms by bot id=7253314383
+2025-04-07 01:33:06,535 - INFO - Update id=164565312 is not handled. Duration 0 ms by bot id=7253314383
+2025-04-07 01:34:28,147 - INFO - Start polling
+2025-04-07 01:34:28,259 - INFO - Run polling for bot @fakerozetka_bot id=7253314383 - 'FakeRozetka'
+2025-04-07 01:34:31,356 - INFO - Update id=164565313 is handled. Duration 125 ms by bot id=7253314383
+2025-04-07 01:34:34,275 - INFO - Update id=164565314 is not handled. Duration 0 ms by bot id=7253314383
+2025-04-07 01:35:02,343 - INFO - Start polling
+2025-04-07 01:35:02,470 - INFO - Run polling for bot @fakerozetka_bot id=7253314383 - 'FakeRozetka'
+2025-04-07 01:35:07,410 - INFO - User 709307873 started bot.
+2025-04-07 01:35:07,617 - INFO - Update id=164565315 is handled. Duration 203 ms by bot id=7253314383
+2025-04-07 01:35:14,949 - INFO - Update id=164565316 is handled. Duration 61 ms by bot id=7253314383
+2025-04-07 01:35:27,913 - INFO - User 709307873 started bot.
+2025-04-07 01:35:28,015 - INFO - Update id=164565317 is handled. Duration 94 ms by bot id=7253314383
+2025-04-07 01:35:30,947 - INFO - Update id=164565318 is handled. Duration 156 ms by bot id=7253314383
+2025-04-07 01:35:34,792 - INFO - Update id=164565319 is handled. Duration 155 ms by bot id=7253314383
+2025-04-07 01:35:45,569 - INFO - Update id=164565320 is handled. Duration 61 ms by bot id=7253314383
+2025-04-07 01:35:50,748 - INFO - Update id=164565321 is handled. Duration 218 ms by bot id=7253314383
+2025-04-07 01:35:54,893 - INFO - Update id=164565322 is handled. Duration 47 ms by bot id=7253314383
+2025-04-07 01:35:58,261 - INFO - Update id=164565323 is handled. Duration 63 ms by bot id=7253314383
+2025-04-07 01:36:02,106 - INFO - Нове замовлення: {'product': 'Zotac_RTX_2060', 'name': 'Арсен', 'phone': '0994638827', 'address': 'Троєщина'}
+2025-04-07 01:36:02,106 - INFO - Update id=164565324 is handled. Duration 78 ms by bot id=7253314383
+2025-04-07 01:36:12,365 - INFO - Update id=164565325 is handled. Duration 61 ms by bot id=7253314383
+2025-04-07 01:36:36,002 - INFO - Update id=164565326 is handled. Duration 78 ms by bot id=7253314383
+2025-04-07 01:36:41,658 - INFO - Update id=164565327 is handled. Duration 125 ms by bot id=7253314383
+2025-04-07 01:36:50,519 - INFO - Update id=164565328 is handled. Duration 94 ms by bot id=7253314383
+2025-04-07 01:36:57,828 - INFO - Update id=164565329 is handled. Duration 61 ms by bot id=7253314383
+2025-04-07 01:37:05,789 - INFO - Update id=164565330 is handled. Duration 61 ms by bot id=7253314383
+2025-04-07 01:37:07,732 - INFO - Update id=164565331 is handled. Duration 110 ms by bot id=7253314383
